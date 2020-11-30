@@ -1,7 +1,7 @@
 function [xk,f0,Series,magxk,angxk] = FourierSeriesAric(input,order,t)
 
 
-T0=6913;
+T0=6913; % length of .mat file used
 f0=1./T0;
 Series=zeros(1,length(t));
 xk=zeros(1,2*order+1);
